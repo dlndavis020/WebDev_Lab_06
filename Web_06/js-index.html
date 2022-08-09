@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>JS demo</title>
+	<!-- my CSS  -->
+	<link href="css/myStyles.css" rel="stylesheet" >
+
+	<!-- javascript -->
+	<script type="text/javascript">
+		//javascript goes here inside script tags
+		//document.write("Hi"); //write direct to webpage
+		document.write("<h1>Hello World!</h1>"); //using HTML tags
+
+		//this is a var declare and value assigned
+		var name = "Jo";
+		document.write("Hi " + name+ "\n how are you?<br>"); //making use of the variable
+        // declares two variables and adds them together
+        var x = 5;
+        var y = 3;
+        document.write("5" + " + " + "3 = " + (x + y) + "<br>");
+        // prompts the user to enter a number then takes that number and compares to see if its valid
+        var num = prompt("Enter a number between 1 and 10 ", "");
+        var numInt = parseInt(num);
+        if(num > 10){
+            document.write("number to big");
+        }
+        else{
+            document.write("Your number is " + num + "<br>");
+        }
+        // declares variables and uses them instead of typing out the whole words
+        var x = "My ";
+        var y = "Name ";
+        var z = "is ";
+        var n = "Dylan"
+        document.write(x + y + z + n)
+	</script>
+  </head>
+  <body>
+	<p>my paragraph</p>
+	<a href="page2.html">Page 2</a>
+
+
+  </body>
+</html>
